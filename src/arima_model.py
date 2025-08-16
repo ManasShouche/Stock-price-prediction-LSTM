@@ -4,17 +4,7 @@ from statsmodels.tsa.arima.model import ARIMA
 from src.utils import evaluate_forecast
 
 def run_arima(df, column="Close", order=(5,1,0)):
-    """
-    Train ARIMA model and evaluate forecast.
 
-    Parameters:
-        df (pd.DataFrame): Stock data
-        column (str): Column to forecast
-        order (tuple): ARIMA order (p,d,q)
-
-    Returns:
-        dict: Metrics dictionary from evaluate_forecast
-    """
     print("\nRunning ARIMA...")
     
     # Use only the target column
