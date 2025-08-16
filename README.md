@@ -13,7 +13,6 @@ This project compares **classical ARIMA** and **deep learning LSTM** models for 
 - `data/` : Stock data (auto-downloaded)
 - `main.py` : Run the whole pipeline
 
-## ▶️ Usage
-```bash
+## Use
 pip install -r requirements.txt
 python main.py
